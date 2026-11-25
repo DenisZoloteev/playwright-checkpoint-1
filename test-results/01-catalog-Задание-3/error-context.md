@@ -1,0 +1,461 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - heading "Hexlet Store" [level=1] [ref=e5]
+      - navigation [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Store" [ref=e9] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e10]:
+            - link "Cart" [ref=e11] [cursor=pointer]:
+              - /url: /cart
+          - button "Language" [ref=e13] [cursor=pointer]
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - textbox "Search" [ref=e17]
+      - button "Category" [ref=e20] [cursor=pointer]
+      - generic [ref=e21]:
+        - text: Brand
+        - generic [ref=e22]:
+          - checkbox "Essence" [ref=e23]
+          - generic [ref=e24]: Essence
+        - generic [ref=e25]:
+          - checkbox "Glamour Beauty" [ref=e26]
+          - generic [ref=e27]: Glamour Beauty
+        - generic [ref=e28]:
+          - checkbox "Velvet Touch" [ref=e29]
+          - generic [ref=e30]: Velvet Touch
+        - generic [ref=e31]:
+          - checkbox "Chic Cosmetics" [ref=e32]
+          - generic [ref=e33]: Chic Cosmetics
+        - generic [ref=e34]:
+          - checkbox "Nail Couture" [ref=e35]
+          - generic [ref=e36]: Nail Couture
+        - generic [ref=e37]:
+          - checkbox "Calvin Klein" [ref=e38]
+          - generic [ref=e39]: Calvin Klein
+        - generic [ref=e40]:
+          - checkbox "Chanel" [ref=e41]
+          - generic [ref=e42]: Chanel
+        - generic [ref=e43]:
+          - checkbox "Dior" [ref=e44]
+          - generic [ref=e45]: Dior
+        - generic [ref=e46]:
+          - checkbox "Dolce & Gabbana" [ref=e47]
+          - generic [ref=e48]: Dolce & Gabbana
+        - generic [ref=e49]:
+          - checkbox "Gucci" [ref=e50]
+          - generic [ref=e51]: Gucci
+        - generic [ref=e52]:
+          - checkbox "Annibale Colombo" [ref=e53]
+          - generic [ref=e54]: Annibale Colombo
+        - generic [ref=e55]:
+          - checkbox "Furniture Co." [ref=e56]
+          - generic [ref=e57]: Furniture Co.
+        - generic [ref=e58]:
+          - checkbox "Knoll" [ref=e59]
+          - generic [ref=e60]: Knoll
+        - generic [ref=e61]:
+          - checkbox "Bath Trends" [ref=e62]
+          - generic [ref=e63]: Bath Trends
+        - checkbox [ref=e65]
+      - generic [ref=e66]:
+        - text: In Stock
+        - generic [ref=e67]:
+          - checkbox "In Stock" [checked] [ref=e68]
+          - generic [ref=e69]: In Stock
+      - generic [ref=e70]:
+        - generic [ref=e71]: Price
+        - generic [ref=e72]:
+          - generic [ref=e73]: "From - To:"
+          - spinbutton [ref=e74]
+          - spinbutton [ref=e75]
+    - generic [ref=e76]:
+      - navigation [ref=e77]:
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Previous" [ref=e80] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e81]:
+            - link "Next" [ref=e82] [cursor=pointer]:
+              - /url: /
+      - generic [ref=e83]:
+        - link "Essence Mascara Lash Princess Essence Mascara Lash Princess The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula. 9.99$ 8.94$ 99 Add to cart" [ref=e84] [cursor=pointer]:
+          - /url: /products/1
+          - generic [ref=e85]:
+            - img "Essence Mascara Lash Princess" [ref=e86]
+            - generic [ref=e87]:
+              - heading "Essence Mascara Lash Princess" [level=6] [ref=e88]
+              - paragraph [ref=e89]: The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.
+              - generic [ref=e90]:
+                - generic [ref=e91]: 9.99$
+                - generic [ref=e92]: 8.94$
+                - generic [ref=e93]: "99"
+                - button "Add to cart" [ref=e94]
+        - link "Eyeshadow Palette with Mirror Eyeshadow Palette with Mirror The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application. 19.99$ 16.35$ 34 Add to cart" [ref=e95] [cursor=pointer]:
+          - /url: /products/2
+          - generic [ref=e96]:
+            - img "Eyeshadow Palette with Mirror" [ref=e97]
+            - generic [ref=e98]:
+              - heading "Eyeshadow Palette with Mirror" [level=6] [ref=e99]
+              - paragraph [ref=e100]: The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.
+              - generic [ref=e101]:
+                - generic [ref=e102]: 19.99$
+                - generic [ref=e103]: 16.35$
+                - generic [ref=e104]: "34"
+                - button "Add to cart" [ref=e105]
+        - link "Powder Canister Powder Canister The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish. 14.99$ 13.51$ 89 Add to cart" [ref=e106] [cursor=pointer]:
+          - /url: /products/3
+          - generic [ref=e107]:
+            - img "Powder Canister" [ref=e108]
+            - generic [ref=e109]:
+              - heading "Powder Canister" [level=6] [ref=e110]
+              - paragraph [ref=e111]: The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.
+              - generic [ref=e112]:
+                - generic [ref=e113]: 14.99$
+                - generic [ref=e114]: 13.51$
+                - generic [ref=e115]: "89"
+                - button "Add to cart" [ref=e116]
+        - link "Red Lipstick Red Lipstick The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish. 12.99$ 11.41$ 91 Add to cart" [ref=e117] [cursor=pointer]:
+          - /url: /products/4
+          - generic [ref=e118]:
+            - img "Red Lipstick" [ref=e119]
+            - generic [ref=e120]:
+              - heading "Red Lipstick" [level=6] [ref=e121]
+              - paragraph [ref=e122]: The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.
+              - generic [ref=e123]:
+                - generic [ref=e124]: 12.99$
+                - generic [ref=e125]: 11.41$
+                - generic [ref=e126]: "91"
+                - button "Add to cart" [ref=e127]
+        - link "Red Nail Polish Red Nail Polish The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home. 8.99$ 7.96$ 79 Add to cart" [ref=e128] [cursor=pointer]:
+          - /url: /products/5
+          - generic [ref=e129]:
+            - img "Red Nail Polish" [ref=e130]
+            - generic [ref=e131]:
+              - heading "Red Nail Polish" [level=6] [ref=e132]
+              - paragraph [ref=e133]: The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.
+              - generic [ref=e134]:
+                - generic [ref=e135]: 8.99$
+                - generic [ref=e136]: 7.96$
+                - generic [ref=e137]: "79"
+                - button "Add to cart" [ref=e138]
+        - link "Calvin Klein CK One Calvin Klein CK One CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear. 49.99$ 49.05$ 29 Add to cart" [ref=e139] [cursor=pointer]:
+          - /url: /products/6
+          - generic [ref=e140]:
+            - img "Calvin Klein CK One" [ref=e141]
+            - generic [ref=e142]:
+              - heading "Calvin Klein CK One" [level=6] [ref=e143]
+              - paragraph [ref=e144]: CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.
+              - generic [ref=e145]:
+                - generic [ref=e146]: 49.99$
+                - generic [ref=e147]: 49.05$
+                - generic [ref=e148]: "29"
+                - button "Add to cart" [ref=e149]
+        - link "Chanel Coco Noir Eau De Chanel Coco Noir Eau De Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions. 129.99$ 108.53$ 58 Add to cart" [ref=e150] [cursor=pointer]:
+          - /url: /products/7
+          - generic [ref=e151]:
+            - img "Chanel Coco Noir Eau De" [ref=e152]
+            - generic [ref=e153]:
+              - heading "Chanel Coco Noir Eau De" [level=6] [ref=e154]
+              - paragraph [ref=e155]: Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.
+              - generic [ref=e156]:
+                - generic [ref=e157]: 129.99$
+                - generic [ref=e158]: 108.53$
+                - generic [ref=e159]: "58"
+                - button "Add to cart" [ref=e160]
+        - link "Dior J'adore Dior J'adore J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication. 89.99$ 76.74$ 98 Add to cart" [ref=e161] [cursor=pointer]:
+          - /url: /products/8
+          - generic [ref=e162]:
+            - img "Dior J'adore" [ref=e163]
+            - generic [ref=e164]:
+              - heading "Dior J'adore" [level=6] [ref=e165]
+              - paragraph [ref=e166]: J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.
+              - generic [ref=e167]:
+                - generic [ref=e168]: 89.99$
+                - generic [ref=e169]: 76.74$
+                - generic [ref=e170]: "98"
+                - button "Add to cart" [ref=e171]
+        - link "Dolce Shine Eau de Dolce Shine Eau de Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent. 69.99$ 69.56$ 4 Add to cart" [ref=e172] [cursor=pointer]:
+          - /url: /products/9
+          - generic [ref=e173]:
+            - img "Dolce Shine Eau de" [ref=e174]
+            - generic [ref=e175]:
+              - heading "Dolce Shine Eau de" [level=6] [ref=e176]
+              - paragraph [ref=e177]: Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.
+              - generic [ref=e178]:
+                - generic [ref=e179]: 69.99$
+                - generic [ref=e180]: 69.56$
+                - generic [ref=e181]: "4"
+                - button "Add to cart" [ref=e182]
+        - link "Gucci Bloom Eau de Gucci Bloom Eau de Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent. 79.99$ 68.48$ 91 Add to cart" [ref=e183] [cursor=pointer]:
+          - /url: /products/10
+          - generic [ref=e184]:
+            - img "Gucci Bloom Eau de" [ref=e185]
+            - generic [ref=e186]:
+              - heading "Gucci Bloom Eau de" [level=6] [ref=e187]
+              - paragraph [ref=e188]: Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.
+              - generic [ref=e189]:
+                - generic [ref=e190]: 79.99$
+                - generic [ref=e191]: 68.48$
+                - generic [ref=e192]: "91"
+                - button "Add to cart" [ref=e193]
+        - link "Annibale Colombo Bed Annibale Colombo Bed The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom. 1899.99$ 1737.16$ 88 Add to cart" [ref=e194] [cursor=pointer]:
+          - /url: /products/11
+          - generic [ref=e195]:
+            - img "Annibale Colombo Bed" [ref=e196]
+            - generic [ref=e197]:
+              - heading "Annibale Colombo Bed" [level=6] [ref=e198]
+              - paragraph [ref=e199]: The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.
+              - generic [ref=e200]:
+                - generic [ref=e201]: 1899.99$
+                - generic [ref=e202]: 1737.16$
+                - generic [ref=e203]: "88"
+                - button "Add to cart" [ref=e204]
+        - link "Annibale Colombo Sofa Annibale Colombo Sofa The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room. 2499.99$ 2139.99$ 60 Add to cart" [ref=e205] [cursor=pointer]:
+          - /url: /products/12
+          - generic [ref=e206]:
+            - img "Annibale Colombo Sofa" [ref=e207]
+            - generic [ref=e208]:
+              - heading "Annibale Colombo Sofa" [level=6] [ref=e209]
+              - paragraph [ref=e210]: The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.
+              - generic [ref=e211]:
+                - generic [ref=e212]: 2499.99$
+                - generic [ref=e213]: 2139.99$
+                - generic [ref=e214]: "60"
+                - button "Add to cart" [ref=e215]
+        - link "Bedside Table African Cherry Bedside Table African Cherry The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance. 299.99$ 242.72$ 64 Add to cart" [ref=e216] [cursor=pointer]:
+          - /url: /products/13
+          - generic [ref=e217]:
+            - img "Bedside Table African Cherry" [ref=e218]
+            - generic [ref=e219]:
+              - heading "Bedside Table African Cherry" [level=6] [ref=e220]
+              - paragraph [ref=e221]: The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.
+              - generic [ref=e222]:
+                - generic [ref=e223]: 299.99$
+                - generic [ref=e224]: 242.72$
+                - generic [ref=e225]: "64"
+                - button "Add to cart" [ref=e226]
+        - link "Knoll Saarinen Executive Conference Chair Knoll Saarinen Executive Conference Chair The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design. 499.99$ 489.94$ 26 Add to cart" [ref=e227] [cursor=pointer]:
+          - /url: /products/14
+          - generic [ref=e228]:
+            - img "Knoll Saarinen Executive Conference Chair" [ref=e229]
+            - generic [ref=e230]:
+              - heading "Knoll Saarinen Executive Conference Chair" [level=6] [ref=e231]
+              - paragraph [ref=e232]: The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.
+              - generic [ref=e233]:
+                - generic [ref=e234]: 499.99$
+                - generic [ref=e235]: 489.94$
+                - generic [ref=e236]: "26"
+                - button "Add to cart" [ref=e237]
+        - link "Wooden Bathroom Sink With Mirror Wooden Bathroom Sink With Mirror The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror. 799.99$ 729.59$ 7 Add to cart" [ref=e238] [cursor=pointer]:
+          - /url: /products/15
+          - generic [ref=e239]:
+            - img "Wooden Bathroom Sink With Mirror" [ref=e240]
+            - generic [ref=e241]:
+              - heading "Wooden Bathroom Sink With Mirror" [level=6] [ref=e242]
+              - paragraph [ref=e243]: The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.
+              - generic [ref=e244]:
+                - generic [ref=e245]: 799.99$
+                - generic [ref=e246]: 729.59$
+                - generic [ref=e247]: "7"
+                - button "Add to cart" [ref=e248]
+        - link "Apple Apple Fresh and crisp apples, perfect for snacking or incorporating into various recipes. 1.99$ 1.74$ 8 Add to cart" [ref=e249] [cursor=pointer]:
+          - /url: /products/16
+          - generic [ref=e250]:
+            - img "Apple" [ref=e251]
+            - generic [ref=e252]:
+              - heading "Apple" [level=6] [ref=e253]
+              - paragraph [ref=e254]: Fresh and crisp apples, perfect for snacking or incorporating into various recipes.
+              - generic [ref=e255]:
+                - generic [ref=e256]: 1.99$
+                - generic [ref=e257]: 1.74$
+                - generic [ref=e258]: "8"
+                - button "Add to cart" [ref=e259]
+        - link "Beef Steak Beef Steak High-quality beef steak, great for grilling or cooking to your preferred level of doneness. 12.99$ 11.74$ 86 Add to cart" [ref=e260] [cursor=pointer]:
+          - /url: /products/17
+          - generic [ref=e261]:
+            - img "Beef Steak" [ref=e262]
+            - generic [ref=e263]:
+              - heading "Beef Steak" [level=6] [ref=e264]
+              - paragraph [ref=e265]: High-quality beef steak, great for grilling or cooking to your preferred level of doneness.
+              - generic [ref=e266]:
+                - generic [ref=e267]: 12.99$
+                - generic [ref=e268]: 11.74$
+                - generic [ref=e269]: "86"
+                - button "Add to cart" [ref=e270]
+        - link "Cat Food Cat Food Nutritious cat food formulated to meet the dietary needs of your feline friend. 8.99$ 8.13$ 46 Add to cart" [ref=e271] [cursor=pointer]:
+          - /url: /products/18
+          - generic [ref=e272]:
+            - img "Cat Food" [ref=e273]
+            - generic [ref=e274]:
+              - heading "Cat Food" [level=6] [ref=e275]
+              - paragraph [ref=e276]: Nutritious cat food formulated to meet the dietary needs of your feline friend.
+              - generic [ref=e277]:
+                - generic [ref=e278]: 8.99$
+                - generic [ref=e279]: 8.13$
+                - generic [ref=e280]: "46"
+                - button "Add to cart" [ref=e281]
+        - link "Chicken Meat Chicken Meat Fresh and tender chicken meat, suitable for various culinary preparations. 9.99$ 8.62$ 97 Add to cart" [ref=e282] [cursor=pointer]:
+          - /url: /products/19
+          - generic [ref=e283]:
+            - img "Chicken Meat" [ref=e284]
+            - generic [ref=e285]:
+              - heading "Chicken Meat" [level=6] [ref=e286]
+              - paragraph [ref=e287]: Fresh and tender chicken meat, suitable for various culinary preparations.
+              - generic [ref=e288]:
+                - generic [ref=e289]: 9.99$
+                - generic [ref=e290]: 8.62$
+                - generic [ref=e291]: "97"
+                - button "Add to cart" [ref=e292]
+        - link "Cooking Oil Cooking Oil Versatile cooking oil suitable for frying, sautéing, and various culinary applications. 4.99$ 4.52$ 10 Add to cart" [ref=e293] [cursor=pointer]:
+          - /url: /products/20
+          - generic [ref=e294]:
+            - img "Cooking Oil" [ref=e295]
+            - generic [ref=e296]:
+              - heading "Cooking Oil" [level=6] [ref=e297]
+              - paragraph [ref=e298]: Versatile cooking oil suitable for frying, sautéing, and various culinary applications.
+              - generic [ref=e299]:
+                - generic [ref=e300]: 4.99$
+                - generic [ref=e301]: 4.52$
+                - generic [ref=e302]: "10"
+                - button "Add to cart" [ref=e303]
+        - link "Cucumber Cucumber Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side. 1.49$ 1.49$ 84 Add to cart" [ref=e304] [cursor=pointer]:
+          - /url: /products/21
+          - generic [ref=e305]:
+            - img "Cucumber" [ref=e306]
+            - generic [ref=e307]:
+              - heading "Cucumber" [level=6] [ref=e308]
+              - paragraph [ref=e309]: Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.
+              - generic [ref=e310]:
+                - generic [ref=e311]: 1.49$
+                - generic [ref=e312]: 1.49$
+                - generic [ref=e313]: "84"
+                - button "Add to cart" [ref=e314]
+        - link "Dog Food Dog Food Specially formulated dog food designed to provide essential nutrients for your canine companion. 10.99$ 9.86$ 71 Add to cart" [ref=e315] [cursor=pointer]:
+          - /url: /products/22
+          - generic [ref=e316]:
+            - img "Dog Food" [ref=e317]
+            - generic [ref=e318]:
+              - heading "Dog Food" [level=6] [ref=e319]
+              - paragraph [ref=e320]: Specially formulated dog food designed to provide essential nutrients for your canine companion.
+              - generic [ref=e321]:
+                - generic [ref=e322]: 10.99$
+                - generic [ref=e323]: 9.86$
+                - generic [ref=e324]: "71"
+                - button "Add to cart" [ref=e325]
+        - link "Eggs Eggs Fresh eggs, a versatile ingredient for baking, cooking, or breakfast. 2.99$ 2.66$ 9 Add to cart" [ref=e326] [cursor=pointer]:
+          - /url: /products/23
+          - generic [ref=e327]:
+            - img "Eggs" [ref=e328]
+            - generic [ref=e329]:
+              - heading "Eggs" [level=6] [ref=e330]
+              - paragraph [ref=e331]: Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.
+              - generic [ref=e332]:
+                - generic [ref=e333]: 2.99$
+                - generic [ref=e334]: 2.66$
+                - generic [ref=e335]: "9"
+                - button "Add to cart" [ref=e336]
+        - link "Fish Steak Fish Steak Quality fish steak, suitable for grilling, baking, or pan-searing. 14.99$ 14.36$ 74 Add to cart" [ref=e337] [cursor=pointer]:
+          - /url: /products/24
+          - generic [ref=e338]:
+            - img "Fish Steak" [ref=e339]
+            - generic [ref=e340]:
+              - heading "Fish Steak" [level=6] [ref=e341]
+              - paragraph [ref=e342]: Quality fish steak, suitable for grilling, baking, or pan-searing.
+              - generic [ref=e343]:
+                - generic [ref=e344]: 14.99$
+                - generic [ref=e345]: 14.36$
+                - generic [ref=e346]: "74"
+                - button "Add to cart" [ref=e347]
+        - link "Green Bell Pepper Green Bell Pepper Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes. 1.29$ 1.29$ 33 Add to cart" [ref=e348] [cursor=pointer]:
+          - /url: /products/25
+          - generic [ref=e349]:
+            - img "Green Bell Pepper" [ref=e350]
+            - generic [ref=e351]:
+              - heading "Green Bell Pepper" [level=6] [ref=e352]
+              - paragraph [ref=e353]: Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.
+              - generic [ref=e354]:
+                - generic [ref=e355]: 1.29$
+                - generic [ref=e356]: 1.29$
+                - generic [ref=e357]: "33"
+                - button "Add to cart" [ref=e358]
+        - link "Green Chili Pepper Green Chili Pepper Spicy green chili pepper, ideal for adding heat to your favorite recipes. 0.99$ 0.98$ 3 Add to cart" [ref=e359] [cursor=pointer]:
+          - /url: /products/26
+          - generic [ref=e360]:
+            - img "Green Chili Pepper" [ref=e361]
+            - generic [ref=e362]:
+              - heading "Green Chili Pepper" [level=6] [ref=e363]
+              - paragraph [ref=e364]: Spicy green chili pepper, ideal for adding heat to your favorite recipes.
+              - generic [ref=e365]:
+                - generic [ref=e366]: 0.99$
+                - generic [ref=e367]: 0.98$
+                - generic [ref=e368]: "3"
+                - button "Add to cart" [ref=e369]
+        - link "Honey Jar Honey Jar Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food. 6.99$ 5.98$ 34 Add to cart" [ref=e370] [cursor=pointer]:
+          - /url: /products/27
+          - generic [ref=e371]:
+            - img "Honey Jar" [ref=e372]
+            - generic [ref=e373]:
+              - heading "Honey Jar" [level=6] [ref=e374]
+              - paragraph [ref=e375]: Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.
+              - generic [ref=e376]:
+                - generic [ref=e377]: 6.99$
+                - generic [ref=e378]: 5.98$
+                - generic [ref=e379]: "34"
+                - button "Add to cart" [ref=e380]
+        - link "Ice Cream Ice Cream Creamy and delicious ice cream, available in various flavors for a delightful treat. 5.49$ 5.01$ 27 Add to cart" [ref=e381] [cursor=pointer]:
+          - /url: /products/28
+          - generic [ref=e382]:
+            - img "Ice Cream" [ref=e383]
+            - generic [ref=e384]:
+              - heading "Ice Cream" [level=6] [ref=e385]
+              - paragraph [ref=e386]: Creamy and delicious ice cream, available in various flavors for a delightful treat.
+              - generic [ref=e387]:
+                - generic [ref=e388]: 5.49$
+                - generic [ref=e389]: 5.01$
+                - generic [ref=e390]: "27"
+                - button "Add to cart" [ref=e391]
+        - link "Juice Juice Refreshing fruit juice, packed with vitamins and great for staying hydrated. 3.99$ 3.51$ 50 Add to cart" [ref=e392] [cursor=pointer]:
+          - /url: /products/29
+          - generic [ref=e393]:
+            - img "Juice" [ref=e394]
+            - generic [ref=e395]:
+              - heading "Juice" [level=6] [ref=e396]
+              - paragraph [ref=e397]: Refreshing fruit juice, packed with vitamins and great for staying hydrated.
+              - generic [ref=e398]:
+                - generic [ref=e399]: 3.99$
+                - generic [ref=e400]: 3.51$
+                - generic [ref=e401]: "50"
+                - button "Add to cart" [ref=e402]
+        - link "Kiwi Kiwi Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes. 2.49$ 2.11$ 99 Add to cart" [ref=e403] [cursor=pointer]:
+          - /url: /products/30
+          - generic [ref=e404]:
+            - img "Kiwi" [ref=e405]
+            - generic [ref=e406]:
+              - heading "Kiwi" [level=6] [ref=e407]
+              - paragraph [ref=e408]: Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.
+              - generic [ref=e409]:
+                - generic [ref=e410]: 2.49$
+                - generic [ref=e411]: 2.11$
+                - generic [ref=e412]: "99"
+                - button "Add to cart" [ref=e413]
+      - navigation [ref=e414]:
+        - list [ref=e415]:
+          - listitem [ref=e416]:
+            - link "Previous" [ref=e417] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e418]:
+            - link "Next" [ref=e419] [cursor=pointer]:
+              - /url: /
+  - contentinfo [ref=e420]:
+    - generic [ref=e421]:
+      - text: created by
+      - link "Hexlet" [ref=e422] [cursor=pointer]:
+        - /url: https://ru.hexlet.io
+      - paragraph [ref=e423]: version 1
+```

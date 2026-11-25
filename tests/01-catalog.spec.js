@@ -8,14 +8,25 @@ test.beforeEach(async ({ page }) => {
 test('Задание 1', async ({ page }) => {
   const model = new CatalogPage(page);
   // BEGIN
+  await expect(page.getByRole('heading', { name: 'Apple' })).toBeVisible();
+
   await model.search('Red Lipstick');
+
+  await expect(page.getByRole('heading', { name: 'Red Lipstick' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Apple' })).toHaveCount(0);
   // END
 });
 
 test('Задание 2', async ({ page }) => {
   const model = new CatalogPage(page);
   // BEGIN
+  await expect(page.getByRole('heading', { name: 'Apple' })).toBeVisible();
+
   await model.selectBrand('Essence');
+
+  await expect(page.getByRole('checkbox', { name: 'Essence', exact: true })).toBeChecked();
+  await expect(page.getByRole('heading', { name: 'Essence Mascara Lash Princess' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Apple' })).toHaveCount(0);
   // END
 });
 
@@ -23,6 +34,9 @@ test('Задание 3', async ({ page }) => {
   const model = new CatalogPage(page);
   // BEGIN
   await model.openProduct('Red Lipstick');
+
+  await expect(page).toHaveURL(/\/products\/4$/);
+  await expect(page.getByRole('heading', { name: 'Red Lipstick' })).toBeVisible();
   // END
 });
 
@@ -32,4 +46,3 @@ test('Задание 4', async ({ page }) => {
   await model.nextPage();
   // END
 });
-
